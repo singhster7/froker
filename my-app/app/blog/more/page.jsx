@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { FaRegHeart, FaHeart, FaRegClock } from 'react-icons/fa';
+import Regular from '../components/regularBlog';
 
 const BlogCard = () => {
   // State to manage if the post is liked or not
@@ -12,6 +13,7 @@ const BlogCard = () => {
   };
 
   return (
+    <div>
     <div className="max-w-2xl mx-auto mt-10">
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <img 
@@ -47,6 +49,8 @@ const BlogCard = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Regular/>
     </div>
   );
 };
