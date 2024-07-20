@@ -30,7 +30,7 @@ const Navbar = () => {
  
 
   return (
-    <div className="flex justify-between items-center w-full h-[60px] px-20 text-black bg-gradient-to-r from-orange-450  to-orange-950 nav sticky top-0 z-20">
+    <div className="flex justify-between items-center w-full h-[60px] px-20 text-black bg-gradient-to-r from-white  to-orange-500 nav sticky top-0 z-20">
       <div className="flex justify-center items-center">
         <h1 className="text-5xl font-signature ml-2">
           <a href="/">
@@ -48,7 +48,7 @@ const Navbar = () => {
         {links.map(({ id, link, label }) => (
           <li
             key={id}
-            className="nav-links px-4 cursor-pointer capitalize text-[20px] text-[--white-text-ridlley] hover:text-[--medium-yellow-ridlley] duration-200 link-underline"
+            className="nav-links px-4 cursor-pointer capitalize text-[20px]  hover:text-yellow-300  duration-200 hover:underline"
           >
             <Link href={link} prefetch>
               <div className="flex items-center">{label}</div>

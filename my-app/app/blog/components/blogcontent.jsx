@@ -34,9 +34,9 @@ const BlogContent = () => {
         <div className="lg:col-span-2">
           {blogPosts.length > 0 && (
             <div className="flex flex-col max-w-full border border-gray-300 rounded-lg overflow-hidden shadow-md">
-             <a href="">
+             <a href="/blog/more">
              <img src={blogPosts[0].image} alt={`Post ${blogPosts[0].id}`} className="w-full h-auto" />
-              <p className="text-sm text-gray-500 m-7">by {blogPosts[0].author} - {blogPosts[0].date}</p>
+              <p className="text-sm text-orange-500 m-7">by {blogPosts[0].author} - {blogPosts[0].date}</p>
               <h2 className="text-lg m-6 truncate">{blogPosts[0].title}</h2>
               <p className="text-base text-gray-700 m-6 truncate">{blogPosts[0].excerpt}</p>
               <div href="#" className="text-orange-500 font-bold m-6 hover:underline">Read More...</div>
@@ -50,7 +50,7 @@ const BlogContent = () => {
             <div key={post.id} className="flex flex-col border border-gray-300 rounded-lg overflow-hidden shadow-md">
               <a href="">
               <img src={post.image} alt={`Post ${post.id}`} className="w-full h-auto" />
-              <p className="text-sm text-gray-500 m-1">by {post.author} - {post.date}</p>
+              <p className="text-sm text-orange-500 m-1">by {post.author} - {post.date}</p>
               <h2 className="text-lg truncate m-1">{post.title}</h2>
               <p className="text-base text-gray-700 truncate m-1">{post.excerpt}</p>
               <div href="#" className="text-orange-500 hover:underline">Read More...</div>
