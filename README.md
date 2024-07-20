@@ -1,5 +1,6 @@
 # froker-submission-2129158
  ## THIS PROJECT IS DEPLOYED!!
+ https://froker.vercel.app/blog
 ## Technology used
 - **Frontend:** React.js, NextJs,TailwindCSS,Axios
 - **Backend:** Node.js, Express.js, PostmanAPI(tool)
