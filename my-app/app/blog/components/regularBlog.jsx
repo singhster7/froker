@@ -9,7 +9,7 @@ const blogPosts = [
       excerpt: "In today's digital age, maintaining a vibrant social media presence is crucial for businesses and individuals alike",
     },
     {
-        id: 1,
+        id: 2,
         image: "https://picsum.photos/400/300?1",
         title: "Delegating Social Media Tasks ...",
         date: "23 April 224",
@@ -17,7 +17,7 @@ const blogPosts = [
         excerpt: "In today's digital age, maintaining a vibrant social media presence is crucial for businesses and individuals alike",
       },
       {
-        id: 1,
+        id: 3,
         image: "https://picsum.photos/400/300?1",
         title: "Delegating Social Media Tasks ...",
         date: "23 April 224",
@@ -25,7 +25,7 @@ const blogPosts = [
         excerpt: "In today's digital age, maintaining a vibrant social media presence is crucial for businesses and individuals alike",
       },
       {
-        id: 1,
+        id: 4,
         image: "https://picsum.photos/400/300?1",
         title: "Delegating Social Media Tasks ...",
         date: "23 April 224",
@@ -33,7 +33,7 @@ const blogPosts = [
         excerpt: "In today's digital age, maintaining a vibrant social media presence is crucial for businesses and individuals alike",
       },
       {
-        id: 1,
+        id: 5,
         image: "https://picsum.photos/400/300?1",
         title: "Delegating Social Media Tasks ...",
         date: "23 April 224",
@@ -41,7 +41,7 @@ const blogPosts = [
         excerpt: "In today's digital age, maintaining a vibrant social media presence is crucial for businesses and individuals alike",
       },
       {
-        id: 1,
+        id: 6,
         image: "https://picsum.photos/400/300?1",
         title: "Delegating Social Media Tasks ...",
         date: "23 April 224",
