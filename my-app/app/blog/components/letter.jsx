@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewsletterSubscription = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between bg-white border-1 rounded-lg p-6 w-full max-w-4xl mx-auto mt-10">
+    <div className="flex flex-col lg:flex-row items-center justify-between bg-white border-1 rounded-lg p-6 w-full max-w-4xl mx-auto mb-7">
       <div className="flex items-center p-8">
         <img 
           src="https://via.placeholder.com/150" // Replace this with your image URL

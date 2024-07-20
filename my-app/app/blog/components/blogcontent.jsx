@@ -48,7 +48,7 @@ const BlogContent = () => {
         <div className="lg:col-span-1 flex flex-col gap-3 h-full">
           {blogPosts.slice(1).map((post) => (
             <div key={post.id} className="flex flex-col border border-gray-300 rounded-lg overflow-hidden shadow-md">
-              <a href="">
+              <a href="/blog/more">
               <img src={post.image} alt={`Post ${post.id}`} className="w-full h-auto" />
               <p className="text-sm text-orange-500 m-1">by {post.author} - {post.date}</p>
               <h2 className="text-lg truncate m-1">{post.title}</h2>

@@ -64,7 +64,7 @@ const Regular = () => {
             <div className="text-orange-500">by-{post.author} -{post.date}</div>
             <h3 className="my-2">{post.title}</h3>
             <p className="my-1 overflow-hidden text-ellipsis">{post.excerpt}</p>
-            <a className="text-orange-500 underline cursor-pointer" href="#">Read More...</a>
+            <a className="text-orange-500 underline cursor-pointer" href="/blog/more">Read More...</a>
           </div>
         </div>
          ))}

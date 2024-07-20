@@ -6,15 +6,15 @@ const nextConfig = {
     experimental: {
       missingSuspenseWithCSRBailout: false,
     },
-    // async redirects() {
-    //   return [
-    //     {
-    //       source: '/',
-    //       destination: '/Blog',
-    //       permanent: true, // This indicates a 308 permanent redirect
-    //     },
-    //   ]
-    // },
+    async redirects() {
+      return [
+        {
+          source: '/',
+          destination: '/blog',
+          permanent: true, // This indicates a 308 permanent redirect
+        },
+      ]
+    },
   };
   
   export default nextConfig;
