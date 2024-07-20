@@ -58,7 +58,7 @@ const Regular = () => {
       <div className="text-3xl mb-9 absolute left-10 top-0 font-bold">Recent Posts</div>
       <div className="flex justify-around  flex-wrap text-ellipsis">
       {blogPosts.map(post => (
-        <div className="w-1/3 my-5 text-left p-2">
+        <div key={post.id} className="w-1/3 my-5 text-left p-2">
           <img src={post.image} alt="Blog post 1" className="w-full h-auto rounded-lg" />
           <div className="p-2 overflow-hidden text-ellipsis">
             <div className="text-orange-500">by-{post.author} -{post.date}</div>
