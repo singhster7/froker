@@ -3,7 +3,7 @@ import React from 'react';
 const blogPosts = [
   {
     id: 1,
-    image: "/path/to/image1.png",
+    image: "https://picsum.photos/700/300",
     author: "Roshan",
     date: "3 May 2024",
     title: "Delegating Social Media Tasks...",
@@ -11,7 +11,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    image: "/path/to/image2.png",
+    image: "https://picsum.photos/700/300",
     author: "Varshita",
     date: "23 April 2024",
     title: "Summer Fashion Tips: Dressing...",
@@ -19,7 +19,29 @@ const blogPosts = [
   },
   {
     id: 3,
-    image: "/path/to/image3.png",
+    image: "https://picsum.photos/700/300",
+    author: "Varshita",
+    date: "23 April 2024",
+    title: "Why Brands Should Partner with...",
+    excerpt: "In the digital marketing landscape, a powerful alliance is brewing between brands and creators, and it's transforming the way businesses connect with ...",
+  },
+  {
+    id: 3,
+    image: "https://picsum.photos/700/300",
+    author: "Varshita",
+    date: "23 April 2024",
+    title: "Why Brands Should Partner with...",
+    excerpt: "In the digital marketing landscape, a powerful alliance is brewing between brands and creators, and it's transforming the way businesses connect with ...",
+  },{
+    id: 3,
+    image: "https://picsum.photos/700/300",
+    author: "Varshita",
+    date: "23 April 2024",
+    title: "Why Brands Should Partner with...",
+    excerpt: "In the digital marketing landscape, a powerful alliance is brewing between brands and creators, and it's transforming the way businesses connect with ...",
+  },{
+    id: 3,
+    image: "https://picsum.photos/700/300",
     author: "Varshita",
     date: "23 April 2024",
     title: "Why Brands Should Partner with...",
@@ -31,7 +53,7 @@ const BlogContent = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <h2 className="text-2xl mb-5">Recent Posts</h2>
-      <div className="flex justify-center flex-wrap gap-5">
+      <div className="flex justify-center flex-wrap gap-6">
         {blogPosts.map((post) => (
           <div key={post.id} className="flex flex-col m-5 max-w-sm border border-gray-300 rounded-lg overflow-hidden shadow-md">
             <img src={post.image} alt={`Post ${post.id}`} className="w-full h-auto" />

@@ -12,6 +12,10 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'orange-450': '#FFA500', // Example custom orange color
+        'orange-950': '#FF4500', // Example custom dark orange color
+      },
     },
   },
   plugins: [],
