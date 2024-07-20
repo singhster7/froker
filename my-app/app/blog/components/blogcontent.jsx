@@ -25,28 +25,7 @@ const blogPosts = [
     title: "Why Brands Should Partner with...",
     excerpt: "In the digital marketing landscape, a powerful alliance is brewing between brands and creators, and it's transforming the way businesses connect with ...",
   },
-  {
-    id: 3,
-    image: "https://picsum.photos/700/300",
-    author: "Varshita",
-    date: "23 April 2024",
-    title: "Why Brands Should Partner with...",
-    excerpt: "In the digital marketing landscape, a powerful alliance is brewing between brands and creators, and it's transforming the way businesses connect with ...",
-  },{
-    id: 3,
-    image: "https://picsum.photos/700/300",
-    author: "Varshita",
-    date: "23 April 2024",
-    title: "Why Brands Should Partner with...",
-    excerpt: "In the digital marketing landscape, a powerful alliance is brewing between brands and creators, and it's transforming the way businesses connect with ...",
-  },{
-    id: 3,
-    image: "https://picsum.photos/700/300",
-    author: "Varshita",
-    date: "23 April 2024",
-    title: "Why Brands Should Partner with...",
-    excerpt: "In the digital marketing landscape, a powerful alliance is brewing between brands and creators, and it's transforming the way businesses connect with ...",
-  },
+  
 ];
 
 const BlogContent = () => {
