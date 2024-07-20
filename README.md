@@ -164,12 +164,3 @@ To run this project, you will need to add the following environment variables to
 ```http
   GET  api/v1/post/blog/posts/postsPerTopic/:topicName
 ```
-
-### Retrieve posts (trending/most commented/recent/saved) When user is logged in.
-
-```http
-  GET api/v1/post/blog/posts/loggedIn?section=trending
-```
-```http
-  GET api/v1/post/blog/posts/saved/:user_id
-```
