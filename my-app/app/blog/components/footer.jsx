@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
         <img src="https://i.postimg.cc/L67kLb4v/froker.png" alt="" />
-        <div className="bg-orange-500 py-7 mt-0">
+        <div className="bg-orange-400 py-7 mt-0">
                   </div>
       </footer>
     );

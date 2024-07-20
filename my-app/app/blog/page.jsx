@@ -4,6 +4,7 @@ import BlogContent from './components/blogcontent'
 import BlogHeader from './components/header'
 import Navbar from '../navbar'
 import Regular from './components/regularBlog'
+import NewsletterSubscription from './components/letter'
 function page() {
     return (
       <div>
@@ -11,6 +12,7 @@ function page() {
         <BlogHeader/>
         <BlogContent/>
         <Regular/>
+        <NewsletterSubscription />
         <Footer/>
       </div>
     )
