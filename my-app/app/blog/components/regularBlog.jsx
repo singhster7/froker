@@ -54,8 +54,8 @@ const blogPosts = [
 
 const Regular = () => {
   return (
-    <div className="p-6 text-center">
-      <h2 className="text-2xl mb-5">Recent Posts</h2>
+    <div className="p-6 text-center relative">
+      <div className="text-3xl mb-9 absolute left-10 top-0 font-bold">Recent Posts</div>
       <div className="flex justify-around  flex-wrap text-ellipsis">
       {blogPosts.map(post => (
         <div className="w-1/3 my-5 text-left p-2">

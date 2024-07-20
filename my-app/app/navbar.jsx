@@ -30,7 +30,7 @@ const Navbar = () => {
  
 
   return (
-    <div className="flex justify-between items-center w-full h-[60px] px-20 text-black bg-gradient-to-r from-orange-450  to-orange-950 nav sticky top-0 z-2">
+    <div className="flex justify-between items-center w-full h-[60px] px-20 text-black bg-gradient-to-r from-orange-450  to-orange-950 nav sticky top-0 z-20">
       <div className="flex justify-center items-center">
         <h1 className="text-5xl font-signature ml-2">
           <a href="/">
