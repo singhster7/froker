@@ -22,7 +22,7 @@ Create a new Pull Request.
 Prerequisites:
 
 - Node.js should be installed on your machine
-- Postgres should be installed on your machine
+
 
 ### Steps:
 - Fork the Repo to your account
@@ -59,5 +59,10 @@ To run this project, you will need to add the following environment variables to
 `CLIENT_ID`
 `CLIENT_SECRET`
 `CLIENT_URL`
-
 ## Checkout the backend directory for more
+## images-<img width="960" alt="image" src="https://github.com/user-attachments/assets/b75e89e6-ebb5-41bb-8c7f-d6c9c2161039">
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/d4aa2231-7d77-482a-8ccc-55d6aed707c7">
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/a2b04fd2-983d-4738-8bf8-a7bf658ec4ea">
+
+
